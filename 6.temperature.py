@@ -1,12 +1,11 @@
 
-def PrintCheckTemperature(nValue):
+def PrintCheckTemperature(InputVal):
+    nValue = int(InputVal)
     nCheckTemperature = 72
     if(nValue >= nCheckTemperature):
         print("too hot");
     else:
         print("too cold");
         
-PrintCheckTemperature(30)
-PrintCheckTemperature(70)
-PrintCheckTemperature(72)
-PrintCheckTemperature(80)   
+CurTemperature = input("input temperature..\n")
+PrintCheckTemperature(CurTemperature)
