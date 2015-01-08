@@ -40,4 +40,7 @@ for string in ['555-1212', 'ILL-EGAL']:
         print(string, 'rejected')
         
         
+# 7 lines: Dictionaries, generator expressions 
+# print("# 7 lines: Dictionaries, generator expressions")
+        
         
